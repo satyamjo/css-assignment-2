@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url(./images/backgroung.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 680px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.logo {
+    color: rgba(81, 81, 240, 0.808);
+    margin-right: 10px;
+}
+
+header {
+    width: 100%;
+    padding-top: 1%;
+}
+
+.main {
+    color: rgb(7, 153, 158);
+    font-size: 20px;
+    float: left;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+nav {
+    float: right;
+    margin-right: 5%;
+}
+
+nav li {
+    display: inline;
+    padding: 1.5rem;
+}
+
+nav li a {
+    color: rgba(81, 81, 240, 0.808);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: rgb(7, 153, 158);
+    border: 2px solid rgb(7, 153, 158);
+    font-family: cursive;
+    transition: all 0.5s ease-in;
+    padding: 15px 0;
+}
+
+.section {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.section p {
+    margin: 0;
+    color: rgb(7, 153, 158);
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.section h1 {
+    color: rgba(81, 81, 240, 0.808);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section button {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px 17px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(7, 153, 158);
+    color: rgba(6, 6, 139, 0.829);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section button:hover {
+    background-color: rgb(7, 153, 158);
+    font-family: cursive;
+    border: none;
+}
+
+/* Customers section */
+
+#customer {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    height: 650px;
+}
+
+.heading {
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(7, 153, 158);
+}
+
+.container-row {
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.happy-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 1px rgb(4, 76, 85);
+}
+
+.row .first {
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+}
+
+.row .second {
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+}
+
+.row .third {
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+}
+
+.reviews {
+    color: rgba(36, 36, 156, 0.747);
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 30px;
+}
+
+/* search section */
+
+#search {
+    overflow: hidden;
+    display: flex;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    height: 300px;
+}
+
+.left {
+    text-shadow: 4px 4px 10px rgba(32, 183, 209, 0.856);
+    width: 30%;
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.right {
+    width: 70%;
+    padding-top: 90px;
+    padding-left: 40px;
+
+}
+
+.input_domain {
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn_search {
+    background-color: #3c40c6;
+    padding: 12px 30px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.btn_search:hover {
+    background-color: rgb(4, 76, 85);
+    border: 3px solid rgba(red, rgba(51, 42, 173, 0.637), blue, alpha);
+}
+
+/*  pricing section  */
+
+
+#pricing {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    color: #fff;
+    padding: 1rem;
+}
+
+.price-h2 {
+    color: rgb(30, 133, 102);
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ul li {
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ul {
+    color: #555;
+    margin: 2% 4%;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    border: 5px dotted rgb(19, 170, 197);
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    border: rgba(51, 42, 173, 0.637);
+}
+
+#bg {
+    background-color: #fff;
+    font-size: 40px;
+}
+
+#head {
+    background-color: rgb(57, 189, 199);
+    color: #fff;
+    font-size: 40px;
+}
+
+#head2 {
+    background-color: rgb(30, 133, 102);
+    color: #fff;
+    font-size: 40px;
+}
+
+.btn_price {
+    background-color: rgb(30, 133, 102);
+    border: none;
+    padding: 10px 32px;
+    color: #fff;
+}
+
+.btn_price:hover {
+    color: rgb(84, 84, 197);
+    outline: inset thick rgba(114, 108, 202, 0.637);
+}
+
+/* contact section */
+
+#contact {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    padding: 10px;
+    padding-left: 64px;
+}
+
+.blank {
+    text-align: center;
+    margin: 3%;
+    font-family: sans-serif;
+    color: rgb(7, 153, 158);
+    ;
+}
+
+label {
+    display: block;
+    margin-bottom: 1%;
+    color: rgba(81, 81, 240, 0.808);
+}
+
+.form input {
+    width: 95%;
+    padding: 0.6rem;
+    margin-bottom: 1%;
+}
+
+.form button {
+    margin-top: 20px;
+    margin-right: 30px;
+    padding: 15px 17px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(7, 153, 158);
+    color: rgba(6, 6, 139, 0.829);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form button:hover {
+    background-color: rgb(7, 153, 158);
+    font-family: cursive;
+    border: none;
+}
+
+/* footer section */
+
+footer {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    color: rgb(7, 153, 158);
+    padding: 10px;
+    text-align: center;
+}
